@@ -14,7 +14,7 @@ const NewClub = (props) => {
   const [clubFormData, setClubFormData] = useState({
     name: '',
     category: '',
-    timeOfDay: 'Morning',
+    timeOfDay: '',
     location: '',
     description: '',
   })
@@ -56,6 +56,8 @@ const NewClub = (props) => {
       <div id={styles['background-image']}></div>
       <div id={styles['img-cover']}></div>
       <div className={styles['new-club-container']}>
+
+        
         <form onSubmit={handleSubmit} >
           <div className={styles['club-info']}>
             <div className={styles['location-info']}>
@@ -81,16 +83,19 @@ const NewClub = (props) => {
                   <option value="AfterNoon">Afternoon</option>
                   <option value="Evening">Evening</option>
                 </select>
+
                 <button type='submit' id={styles['create-club']} onClick={displayShopSuggestions}>Create Club</button>
+
               </div>
             </div>
           </div>
         </form>
         {<NewCoffeeShop handleAddShop={props.handleAddShop} />}
+
+
         <div className={styles['shops-in-club']} id='shop-suggestions'>
           <p>Here are some coffee shops in your area! Select one to host your club in and let others join!</p>
           <div className={styles['shop-cards']}>
-
             {shopsByLocation.length ?
               <>
                 {shopsByLocation.map(shop => (
@@ -107,6 +112,8 @@ const NewClub = (props) => {
           </HashLink>
         </div>
       </div>
+
+
     </main>
   )
 }
