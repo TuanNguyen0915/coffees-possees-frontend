@@ -3,11 +3,6 @@ import { Link } from 'react-router-dom';
 
 const NoRoutes = () => {
 
-  const randomImage = () => {
-    let images = [];
-    
-  }
-
   return ( 
     <div className={styles["no-route-handler"]}>
       <div className={styles["not-found-message"]}>
