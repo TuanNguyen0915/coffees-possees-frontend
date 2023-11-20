@@ -10,10 +10,16 @@ Do you like coffee? Of course you do... but who do you take your coffee with? We
 ### [Meet Jolyne...](https://docs.google.com/presentation/d/1DQm0XDNEbN_ibKMw87wEhzTzs_LkZHxNUtE6tktCEoM/edit#slide=id.g24dca8be8d5_0_110)
 After reading about Jolyne's experience I'm sure you are wondering how you can get the same joy that she has and my friend you are in the right place. By clicking the link provided below you can join a club or create your own in just a few minutes.
 
-## [CLICK](https://coffees-and-posses.netlify.app/) to Sign Up w/ Coffees & Posses! ☕️
-Join Us: https://coffees-and-posses.netlify.app/
 
-## Meet the Team Behind Coffees & Posses:
+
+## [CLICK](https://coffees-and-posses.netlify.app/) to Sign Up w/ Coffees & Posses! ☕️
+- Join Us: https://coffees-and-posses.netlify.app/ 
+- Back End Github Link: https://github.com/Johny270/coffees-posses-backend
+
+### Planning Materials:
+ - https://trello.com/b/Ex7bN764/coffees-posses
+
+## Meet the Team Behind Coffees & Posses: ☕️
 - Nate:https://github.com/natesobeck
 - Tuan:https://github.com/TuanNguyen0915
 - Jonathan: https://github.com/Johny270
@@ -38,7 +44,7 @@ Tabitha Turner](https://unsplash.com/photos/F0Wd4djYvSA)
 - Thank you [google fonts](https://fonts.google.com/) for M PLUS Rounded 1c
 
 ### Technologies Used:
-- React.js
+- React
 - MongoDB
 - Mongoose
 - JavaScript
@@ -46,13 +52,14 @@ Tabitha Turner](https://unsplash.com/photos/F0Wd4djYvSA)
 - Express.js
 - HTML
 - CSS
+- JWT Authentication
 - Netlify
 - Fly.io
 - Git
 - Github
 
 ### Future Plans for Coffees & Posses ☕️
-- Implement google maps api for users to be able to search up the exact location of the coffeeshop where the club meeting will be held.
+- Implement Google maps API for users to be able to search up the exact location of the coffeeshop where the club meeting will be held.
 - Add a calendar within the application for users to be able to select a date and time for the club.
 - Track how many users are in a club.
 - Add club categories for the user to select.
